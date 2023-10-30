@@ -1,0 +1,15 @@
+{
+  "name": "skypro-backend-hw-1",
+  "version": "1.0.0",
+  "description": "Репо с домашними работами по курсу бэкенд разработки от skypro",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "semtyk",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
