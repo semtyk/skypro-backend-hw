@@ -39,7 +39,7 @@ const server = http.createServer((request, response) => {
         } else {
           //Если переданы какие-либо другие параметры, то пустой ответ, код ответа 500.
           response.statusCode = 500;
-          response.statusMessage = " ";
+          response.statusMessage = "Internal server error";
           response.setHeader("Content-Type", "text/plain; charset=utf-8");
           response.write(" ");
         }
